@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next'
 
+const isCI = process.env.CI === 'true'
+
 const nextConfig: NextConfig = {
-  output: 'export',
+  ...(isCI && { output: 'export' }),
   images: {
     domains: [],
     unoptimized: true,
