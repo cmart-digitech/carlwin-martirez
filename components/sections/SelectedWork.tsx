@@ -85,7 +85,7 @@ function ProjectCard({ project, priority = false }: { project: Project; priority
             fill
             priority={priority}
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-            className={`${project.imageFit === 'contain' ? 'object-contain' : 'object-cover'} transition-transform duration-700 ease-out`}
+            className={`${project.imageFit === 'contain' ? 'object-contain' : 'object-cover'} grayscale hover:grayscale-0 transition-all duration-700 ease-out`}
             style={{
               objectPosition: project.imagePosition ?? 'center center',
               transform: `scale(${project.imageScale ?? 1})`,

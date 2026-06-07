@@ -55,7 +55,7 @@ function ProductCard({ project }: { project: Project }) {
             alt={project.title}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover object-top group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+            className="object-cover object-top grayscale group-hover:grayscale-0 group-hover:scale-[1.03] transition-all duration-700 ease-out"
             style={{ objectPosition: project.imagePosition ?? 'center top' }}
           />
         </div>
