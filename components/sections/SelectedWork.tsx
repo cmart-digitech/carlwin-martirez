@@ -59,8 +59,8 @@ export default function SelectedWork({ projects }: Props) {
 
         {/* Project grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-12">
-          {filtered.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {filtered.map((project, i) => (
+            <ProjectCard key={project.id} project={project} priority={i < 3} />
           ))}
         </div>
 
@@ -72,7 +72,7 @@ export default function SelectedWork({ projects }: Props) {
   )
 }
 
-function ProjectCard({ project }: { project: Project }) {
+function ProjectCard({ project, priority = false }: { project: Project; priority?: boolean }) {
   return (
     <article className="group flex flex-col">
 
@@ -83,6 +83,7 @@ function ProjectCard({ project }: { project: Project }) {
             src={project.image}
             alt={project.title}
             fill
+            priority={priority}
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             className={`${project.imageFit === 'contain' ? 'object-contain' : 'object-cover'} transition-transform duration-700 ease-out`}
             style={{
