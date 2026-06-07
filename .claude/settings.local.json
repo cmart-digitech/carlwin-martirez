@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(taskkill /PID 14808 /F)",
+      "Bash(find \"C:/Users/ADMIN/Documents/00_CARL\" -type d | grep -i \"portfolio\\\\|project\\\\|render\\\\|arch\\\\|design\\\\|work\" | head -20)",
+      "Bash(start http://localhost:3000)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \"LISTENING\")",
+      "Bash(findstr \":300\")",
+      "Bash(cmd /c \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\" --new-window \"http://localhost:3001\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

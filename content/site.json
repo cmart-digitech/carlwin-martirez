@@ -1,0 +1,438 @@
+{
+  "settings": {
+    "theme": "light",
+    "fontFamily": "inter",
+    "fontSize": "default",
+    "density": "balanced",
+    "accentColor": "#1A1A1A"
+  },
+  "hero": {
+    "name": "Carlwin Martirez",
+    "tagline": "Architecture · Planning · Sustainability · Design Strategy · Digital Integration",
+    "intro": "Design-led built environment professional working across architecture, planning, sustainability, digital workflows, and construction management. Based in Newcastle, NSW.",
+    "links": [
+      { "label": "View selected work", "href": "#work", "isExternal": false },
+      { "label": "Get in touch", "href": "#contact", "isExternal": false }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "Carlwin is a design-led built environment professional working across architecture, planning, sustainability, and digital design workflows. His work explores how design thinking, environmental responsibility, and emerging tools can support clearer project communication and better built outcomes.",
+      "With a background spanning mixed-use development, residential communities, interiors, and sustainability strategy, Carlwin brings a cross-disciplinary perspective to every project. He is currently developing his construction management capabilities to bridge design intent and delivery more effectively.",
+      "His practice interests sit at the intersection of spatial quality, ecological performance, and the evolving role of technology in design, from BIM-led coordination and parametric thinking to AI-assisted visualisation and green building certification."
+    ]
+  },
+  "practiceAreas": [
+    {
+      "id": "pa-1",
+      "title": "Architecture & Planning",
+      "description": "Design and coordination of mixed-use, residential, and civic projects across multiple scales. From masterplanning to detailed design, with a focus on spatial clarity and liveable environments.",
+      "icon": "building"
+    },
+    {
+      "id": "pa-2",
+      "title": "Sustainability & ESG",
+      "description": "Green building certification across LEED, WELL, BEAM Plus, Fitwel, and Living Future frameworks. Integrated sustainability strategy from concept through delivery.",
+      "icon": "leaf"
+    },
+    {
+      "id": "pa-3",
+      "title": "Design Strategy & Storytelling",
+      "description": "Translating complex design ideas into compelling visual narratives. From project briefs and design reports to client presentations and competition submissions.",
+      "icon": "layers"
+    },
+    {
+      "id": "pa-4",
+      "title": "BIM & Digital Workflows",
+      "description": "Revit-led project coordination, BIM management, and digital workflow integration. Connecting design data to project communication and delivery.",
+      "icon": "cpu"
+    },
+    {
+      "id": "pa-5",
+      "title": "AI-Assisted Design Exploration",
+      "description": "Applying generative AI and computational tools to concept development, visualisation, and spatial communication. Including tools such as Midjourney, Claude, and Lovable.",
+      "icon": "sparkles"
+    },
+    {
+      "id": "pa-6",
+      "title": "Construction Management Development",
+      "description": "Postgraduate study in construction management, bridging the gap between architectural design intent and project delivery in complex built environment contexts.",
+      "icon": "hard-hat"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Hongqiao West Mixed-Use Development",
+      "subtitle": "Sky Ring",
+      "category": "Cities of the Future",
+      "location": "Shanghai, China",
+      "role": "Design Architect",
+      "description": "A large-scale mixed-use development anchoring Hongqiao's westward urban expansion. The Sky Ring concept introduces a distinctive elevated typology connecting commercial, hospitality, and public realm uses at multiple levels. Design work focused on massing strategy, facade expression, and contextual integration within a high-density transit-oriented precinct.",
+      "tags": ["Mixed-Use", "Urban Design", "Commercial", "Transit-Oriented"],
+      "image": "/projects/hongqiao.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center 50%",
+      "imageScale": 1.2,
+      "order": 1,
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "Qianhai Park Community Centre",
+      "subtitle": "Nature's Cradle Pavilion",
+      "category": "Cities of the Future",
+      "location": "Qianhai, Shenzhen, China",
+      "role": "Design Architect",
+      "description": "A community pavilion set within the Qianhai waterfront park, designed as a lightweight public gathering space that mediates between the urban edge and landscape. The Nature's Cradle concept draws from organic geometries to create sheltered outdoor rooms with a strong sense of place. A project exploring civic architecture at a human scale.",
+      "tags": ["Civic", "Pavilion", "Landscape Integration", "Public Space"],
+      "image": "/projects/qianhai.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center center",
+      "order": 2,
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "title": "Wuxi Smart City",
+      "subtitle": "Bamboo Grove Towers",
+      "category": "Cities of the Future",
+      "location": "Wuxi, China",
+      "role": "Design Architect",
+      "description": "A residential and commercial tower cluster conceived for Wuxi's smart city precinct. The Bamboo Grove typology explores verticality through slender, clustered forms that reference the material qualities and spatial density of bamboo. Design work encompassed concept development, tower massing, and facade character.",
+      "tags": ["Tall Buildings", "Smart City", "Residential", "Masterplanning"],
+      "image": "/projects/wuxi.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center center",
+      "order": 3,
+      "featured": false
+    },
+    {
+      "id": "proj-4",
+      "title": "Rose Rock Financial Centre",
+      "subtitle": "",
+      "category": "Cities of the Future",
+      "location": "China",
+      "role": "Design Architect",
+      "description": "A commercial tower development addressing civic presence and corporate identity within an emerging financial district. The design explores materiality, proportion, and the relationship between the building's public podium and its tower form. Work included design development, facade studies, and presentation documentation.",
+      "tags": ["Commercial", "Tower", "Financial District", "Corporate"],
+      "image": "/projects/roserock.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center 40%",
+      "order": 4,
+      "featured": false
+    },
+    {
+      "id": "proj-5",
+      "title": "HKIIT Innovation Centre",
+      "subtitle": "",
+      "category": "Cities of the Future",
+      "location": "Hong Kong",
+      "role": "Design Architect",
+      "description": "An innovation and technology hub designed to support Hong Kong's ambitions as a global centre for applied research and industry collaboration. The design balances flexible workspace, maker facilities, and collaborative zones within a compact urban footprint, with a particular focus on adaptable layout strategies.",
+      "tags": ["Innovation Hub", "Education", "Technology", "Civic"],
+      "image": "/projects/HKIITH.jpg",
+      "imageFit": "cover",
+      "imagePosition": "20% 45%",
+      "order": 5,
+      "featured": false
+    },
+    {
+      "id": "proj-6",
+      "title": "Green Shore Eco-Residence",
+      "subtitle": "",
+      "category": "Residential Lifestyle",
+      "location": "China",
+      "role": "Design Architect",
+      "description": "A low-rise residential community designed around principles of ecological performance and landscape integration. Green Shore weaves passive design strategies, green corridor planning, and biophilic detailing into a coherent neighbourhood identity. The project pursued green building certification as a design driver rather than a compliance exercise.",
+      "tags": ["Eco-Residential", "Sustainability", "Low-Rise", "Biophilic Design"],
+      "image": "/projects/greenshore.jpeg",
+      "imageFit": "cover",
+      "imagePosition": "left center",
+      "imageScale": 1.1,
+      "order": 6,
+      "featured": true
+    },
+    {
+      "id": "proj-7",
+      "title": "Koko Hills",
+      "subtitle": "",
+      "category": "Residential Lifestyle",
+      "location": "[To be added]",
+      "role": "Design Architect",
+      "description": "A hillside residential development responding to topography, outlook, and lifestyle aspirations. Koko Hills explores how residential architecture can negotiate slope and setting while maintaining a strong internal logic of living spaces, communal amenity, and landscape connections.",
+      "tags": ["Residential", "Hillside", "Lifestyle", "Landscape"],
+      "image": "/projects/kokohills.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center 30%",
+      "order": 7,
+      "featured": false
+    },
+    {
+      "id": "proj-8",
+      "title": "Altissimo",
+      "subtitle": "",
+      "category": "Elevating Interiors",
+      "location": "[To be added]",
+      "role": "Interior Designer / Design Architect",
+      "description": "A high-specification residential interior project focused on material quality, spatial flow, and an elevated sense of domestic life. Altissimo explores how interiors can feel both refined and liveable, using restrained palettes, considered proportions, and bespoke detailing to create a coherent interior world.",
+      "tags": ["Residential Interior", "High-End", "Material Quality", "Spatial Design"],
+      "image": "/projects/altissimo.jpg",
+      "imageFit": "cover",
+      "imagePosition": "left 50%",
+      "order": 8,
+      "featured": false
+    },
+    {
+      "id": "proj-9",
+      "title": "Grand Residence Humansa",
+      "subtitle": "",
+      "category": "Elevating Interiors",
+      "location": "Hong Kong",
+      "role": "Interior Designer / Design Architect",
+      "description": "Interior design for a premium residential development in Hong Kong, aligning spatial quality with a wellness-oriented lifestyle brief. The design draws on a calm material language and considered spatial sequencing to support residents' wellbeing. Work encompassed concept development, material specification, and design documentation.",
+      "tags": ["Residential Interior", "Wellness", "Premium", "Hong Kong"],
+      "image": "/projects/grandresidence.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center 20%",
+      "imageScale": 1.15,
+      "order": 9,
+      "featured": false
+    },
+    {
+      "id": "proj-10",
+      "title": "Artisan Herbalist Specialists",
+      "subtitle": "",
+      "category": "Elevating Interiors",
+      "location": "[To be added]",
+      "role": "Interior Designer",
+      "description": "A retail and wellness interior for a specialist herbalist brand, translating craft, natural materials, and therapeutic culture into a distinctive spatial identity. The design creates an immersive retail environment that balances sensory richness with a sense of calm and authenticity.",
+      "tags": ["Retail Interior", "Wellness", "Brand Identity", "Craft"],
+      "image": "/projects/artisanherbalist.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center center",
+      "order": 10,
+      "featured": false
+    },
+    {
+      "id": "proj-11",
+      "title": "Net Zero Sustainability Strategy",
+      "subtitle": "Integrated ESG Design Work",
+      "category": "Path to Net Zero",
+      "location": "Multiple Projects",
+      "role": "Sustainability Strategist / Green Building Consultant",
+      "description": "A body of sustainability work spanning LEED, WELL, BEAM Plus, Fitwel, Living Future, and ESG planning frameworks across multiple project types. This work encompasses early-stage sustainability target-setting, integrated design workshops, certification management, and reporting. Driven by a belief that environmental performance should be a design value, not a compliance burden.",
+      "tags": ["LEED", "WELL", "BEAM Plus", "ESG", "Net Zero"],
+      "image": "/projects/hsitp.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center top",
+      "order": 11,
+      "featured": true
+    },
+    {
+      "id": "proj-12",
+      "title": "BIMxPlan Go",
+      "subtitle": "",
+      "category": "AI & Digital Tools",
+      "location": "Digital Project",
+      "role": "Lead Designer / Developer",
+      "description": "A digital tool concept connecting BIM data with planning workflows. BIMxPlan Go explores how structured design data can streamline the interface between architectural design and planning submission processes, reducing friction and improving accuracy in the documentation pipeline.",
+      "tags": ["BIM", "Planning", "Digital Tools", "Workflow"],
+      "image": "/projects/BIMXPlan Go.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center top",
+      "order": 12,
+      "featured": true
+    },
+    {
+      "id": "proj-13",
+      "title": "VerdeIQ",
+      "subtitle": "",
+      "category": "AI & Digital Tools",
+      "location": "Digital Project",
+      "role": "Lead Designer / Developer",
+      "description": "An AI-assisted sustainability intelligence platform exploring how machine learning and generative tools can support early-stage environmental design decisions. VerdeIQ is a design research and tool development project that sits at the intersection of sustainability strategy, data, and design communication.",
+      "tags": ["AI", "Sustainability", "Design Intelligence", "Digital Tool"],
+      "image": "/projects/verdeiq.jpg",
+      "imageFit": "cover",
+      "imagePosition": "center top",
+      "order": 13,
+      "featured": true
+    }
+  ],
+  "credentials": [
+    {
+      "id": "cred-1",
+      "title": "Registered Architect",
+      "issuer": "United Architects of the Philippines (UAP / PRC)",
+      "year": "",
+      "type": "registration"
+    },
+    {
+      "id": "cred-1b",
+      "title": "United Architects of the Philippines",
+      "subtitle": "Member, Hong Kong Chapter",
+      "issuer": "",
+      "year": "",
+      "type": "registration"
+    },
+    {
+      "id": "cred-1c",
+      "title": "American Institute of Architects",
+      "subtitle": "International Associate",
+      "issuer": "",
+      "year": "",
+      "type": "registration"
+    },
+    {
+      "id": "cred-1d",
+      "title": "Passivehaus (Philippines)",
+      "subtitle": "Founding Member",
+      "issuer": "",
+      "year": "",
+      "type": "registration"
+    },
+    {
+      "id": "cred-2",
+      "title": "LEED AP BD+C",
+      "issuer": "U.S. Green Building Council",
+      "year": "2018",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-3",
+      "title": "WELL AP",
+      "issuer": "International WELL Building Institute",
+      "year": "2020",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-4",
+      "title": "Fitwel Ambassador",
+      "issuer": "Center for Active Design",
+      "year": "2021",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-5",
+      "title": "Living Future AP",
+      "issuer": "International Living Future Institute",
+      "year": "2022",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-6",
+      "title": "Certified ESG Planner (CEP)",
+      "issuer": "Global ESG Academy",
+      "year": "2023",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-7",
+      "title": "BEAM Pro EB",
+      "issuer": "BEAM Society Limited (Hong Kong)",
+      "year": "2024",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-8",
+      "title": "ISSP Member",
+      "issuer": "Int'l Society of Sustainability Professionals",
+      "year": "2024",
+      "type": "accreditation"
+    },
+    {
+      "id": "cred-9",
+      "title": "LEED AP Project Manager",
+      "issuer": "GBES",
+      "year": "2024",
+      "type": "net-zero-tools"
+    },
+    {
+      "id": "cred-10",
+      "title": "LCA | EPD (One Click LCA)",
+      "issuer": "One Click LCA",
+      "year": "2025",
+      "type": "net-zero-tools"
+    },
+    {
+      "id": "cred-11",
+      "title": "Autodesk Certified Pro: Revit",
+      "issuer": "Autodesk",
+      "year": "2019",
+      "type": "tech-innovation"
+    },
+    {
+      "id": "cred-12",
+      "title": "Smart Cities for Sustainable Development",
+      "issuer": "World Bank Group",
+      "year": "2024",
+      "type": "tech-innovation"
+    },
+    {
+      "id": "cred-13",
+      "title": "Mastery of Generative AI",
+      "issuer": "Voiz AI",
+      "year": "2025",
+      "type": "tech-innovation"
+    }
+  ],
+  "cmCredentials": [
+    {
+      "id": "cm-1",
+      "title": "White Card (General Construction Induction)",
+      "year": "2026",
+      "group": "Safety & Induction"
+    },
+    {
+      "id": "cm-2",
+      "title": "Mates in Construction Connector",
+      "year": "2026",
+      "group": "Safety & Induction"
+    },
+    {
+      "id": "cm-3",
+      "title": "Building Designers Association of Australia",
+      "year": "2026",
+      "group": "Professional Memberships"
+    },
+    {
+      "id": "cm-4",
+      "title": "Chartered Institute of Building (Basic Member)",
+      "year": "2026",
+      "group": "Professional Memberships"
+    },
+    {
+      "id": "cm-5",
+      "title": "Royal Institution of Chartered Surveyors (Student Member)",
+      "year": "2026",
+      "group": "Professional Memberships"
+    }
+  ],
+  "tools": [
+    { "id": "t-1", "name": "Revit", "category": "BIM & CAD" },
+    { "id": "t-2", "name": "AutoCAD", "category": "BIM & CAD" },
+    { "id": "t-3", "name": "SketchUp", "category": "BIM & CAD" },
+    { "id": "t-4", "name": "Lumion", "category": "Design & Visualisation" },
+    { "id": "t-5", "name": "Adobe Creative Suite", "category": "Design & Visualisation" },
+    { "id": "t-6", "name": "Midjourney", "category": "AI & Generative" },
+    { "id": "t-7", "name": "Claude", "category": "AI & Generative" },
+    { "id": "t-8", "name": "Generative AI Workflows", "category": "AI & Generative" },
+    { "id": "t-9", "name": "GitHub", "category": "Development" },
+    { "id": "t-10", "name": "Supabase", "category": "Development" },
+    { "id": "t-11", "name": "Lovable", "category": "Development" },
+    { "id": "t-12", "name": "Microsoft Office", "category": "Development" },
+    { "id": "t-13", "name": "LEED", "category": "Sustainability Standards" },
+    { "id": "t-14", "name": "WELL", "category": "Sustainability Standards" },
+    { "id": "t-15", "name": "BEAM Plus", "category": "Sustainability Standards" },
+    { "id": "t-16", "name": "Fitwel", "category": "Sustainability Standards" },
+    { "id": "t-17", "name": "Living Future", "category": "Sustainability Standards" },
+    { "id": "t-18", "name": "ESG Planning", "category": "Sustainability Standards" }
+  ],
+  "contact": {
+    "email": "carlwin.martirez@gmail.com",
+    "linkedin": "",
+    "location": "Newcastle, NSW, Australia",
+    "tagline": "Open to construction management, built environment, sustainability, and digital design opportunities."
+  }
+}
