@@ -77,7 +77,7 @@ function ProjectCard({ project, priority = false }: { project: Project; priority
     <article className="group flex flex-col">
 
       {/* ── Image block — consistent 16:9 for all cards ── */}
-      <div className="relative w-full overflow-hidden mb-4 rounded-xl grayscale hover:grayscale-0 transition-all duration-700" style={{ aspectRatio: IMAGE_RATIO }}>
+      <div className="relative w-full overflow-hidden mb-4 rounded-xl" style={{ aspectRatio: IMAGE_RATIO }}>
         {project.image ? (
           <Image
             src={project.image}

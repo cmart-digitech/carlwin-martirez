@@ -49,7 +49,7 @@ function ProductCard({ project }: { project: Project }) {
 
       {/* Image */}
       {project.image && (
-        <div className="relative w-full overflow-hidden rounded-t-xl grayscale group-hover:grayscale-0 transition-all duration-700" style={{ aspectRatio: '4/3' }}>
+        <div className="relative w-full overflow-hidden rounded-t-xl" style={{ aspectRatio: '4/3' }}>
           <Image
             src={project.image}
             alt={project.title}
