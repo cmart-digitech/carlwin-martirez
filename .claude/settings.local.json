@@ -14,7 +14,17 @@
       "Bash(cmd /c \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\" --new-window \"http://localhost:3001\")",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(gh run *)",
+      "Bash(where gh *)",
+      "PowerShell(cd \"C:\\\\Users\\\\ADMIN\\\\Documents\\\\Claude Code Projects\\\\General CV\"; $env:CI = \"true\"; npm run build 2>&1)",
+      "PowerShell(cd \"C:\\\\Users\\\\ADMIN\\\\Documents\\\\Claude Code Projects\\\\General CV\"; Select-String -Path \"out\\\\index.html\" -Pattern \"cm-logo2|hongqiao|projects/\" | Select-Object -First 5 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(cd \"C:\\\\Users\\\\ADMIN\\\\Documents\\\\Claude Code Projects\\\\General CV\"; $content = [System.IO.File]::ReadAllText\\(\"content\\\\site.json\", [System.Text.Encoding]::UTF8\\); [System.IO.File]::WriteAllText\\(\"content\\\\site.json\", $content, \\(New-Object System.Text.UTF8Encoding $false\\)\\); Write-Host \"BOM removed\")",
+      "PowerShell(cd \"C:\\\\Users\\\\ADMIN\\\\Documents\\\\Claude Code Projects\\\\General CV\"; $bytes = [System.IO.File]::ReadAllBytes\\(\"content\\\\site.json\"\\); Write-Host \"First 3 bytes: $\\($bytes[0]\\) $\\($bytes[1]\\) $\\($bytes[2]\\)\")"
     ]
   }
 }

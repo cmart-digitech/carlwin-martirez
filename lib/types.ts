@@ -54,7 +54,7 @@ export interface Credential {
   subtitle?: string
   issuer?: string
   year?: string
-  type: 'registration' | 'certification' | 'accreditation' | 'net-zero-tools' | 'tech-innovation' | 'australian-membership'
+  type: 'registration' | 'certification' | 'accreditation' | 'net-zero-tools' | 'tech-innovation'
 }
 
 export interface CMCredential {

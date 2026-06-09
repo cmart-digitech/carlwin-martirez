@@ -11,7 +11,6 @@ export default function Credentials({ credentials }: Props) {
     certification: credentials.filter((c) => c.type === 'certification'),
     netZero: credentials.filter((c) => c.type === 'net-zero-tools'),
     tech: credentials.filter((c) => c.type === 'tech-innovation'),
-    australian: credentials.filter((c) => c.type === 'australian-membership'),
   }
 
   return (
@@ -38,9 +37,6 @@ export default function Credentials({ credentials }: Props) {
               )}
               {byType.tech.length > 0 && (
                 <CredentialGroup label="Tech & Innovation" items={byType.tech} />
-              )}
-              {byType.australian.length > 0 && (
-                <CredentialGroup label="Australian Credentials & Memberships" items={byType.australian} />
               )}
             </div>
           </div>

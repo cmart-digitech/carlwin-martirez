@@ -293,14 +293,6 @@
       "type": "registration"
     },
     {
-      "id": "cred-1e",
-      "title": "Australian Institute of Quantity Surveyors",
-      "subtitle": "Student Member",
-      "issuer": "",
-      "year": "2026",
-      "type": "australian-membership"
-    },
-    {
       "id": "cred-2",
       "title": "LEED AP BD+C",
       "issuer": "U.S. Green Building Council",
@@ -413,6 +405,12 @@
     {
       "id": "cm-5",
       "title": "Royal Institution of Chartered Surveyors (Student Member)",
+      "year": "2026",
+      "group": "Professional Memberships"
+    },
+    {
+      "id": "cm-6",
+      "title": "Australian Institute of Quantity Surveyors (Student Member)",
       "year": "2026",
       "group": "Professional Memberships"
     }
