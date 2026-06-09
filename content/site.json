@@ -293,6 +293,14 @@
       "type": "registration"
     },
     {
+      "id": "cred-1e",
+      "title": "Australian Institute of Quantity Surveyors",
+      "subtitle": "Student Member",
+      "issuer": "",
+      "year": "2026",
+      "type": "registration"
+    },
+    {
       "id": "cred-2",
       "title": "LEED AP BD+C",
       "issuer": "U.S. Green Building Council",
