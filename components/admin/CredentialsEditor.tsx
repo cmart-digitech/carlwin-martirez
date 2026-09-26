@@ -62,6 +62,7 @@ export default function CredentialsEditor({ credentials, onChange }: Props) {
                     <option value="registration">Professional Registration</option>
                     <option value="accreditation">Accreditation</option>
                     <option value="certification">Certification</option>
+                    <option value="award">Achievement</option>
                   </select>
                 </Field>
               </div>

@@ -30,6 +30,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The admin panel and API routes need a server; GitHub Pages has none.
+      # Drop them from this checkout so they are never published.
+      - name: Strip server-only code
+        run: node scripts/prepare-static-export.mjs
+        env:
+          CI: 'true'
+
       - name: Build
         run: npm run build
         env:
