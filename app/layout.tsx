@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Inter, Libre_Baskerville, DM_Sans, Playfair_Display, Bodoni_Moda } from 'next/font/google'
 import './globals.css'
 
@@ -56,7 +57,16 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${dmSans.variable} ${libreBaskerville.variable} ${playfair.variable} ${bodoniModa.variable}`}
     >
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        {children}
+        {process.env.NODE_ENV === 'production' && (
+          <Script
+            data-goatcounter="https://carlwinmartirez.goatcounter.com/count"
+            src="https://gc.zgo.at/count.js"
+            strategy="afterInteractive"
+          />
+        )}
+      </body>
     </html>
   )
 }
